@@ -1,0 +1,545 @@
+
+LICENSE SYSTEM [2019714 19:47:27] Next license update check is after 2019-07-14T11:47:38
+
+
+LICENSE SYSTEM [2019714 19:47:27] 00326-10018-34761-AA973 != 00326-10018-34761-AA834
+
+Built from '2017.3/release' branch; Version is '2017.4.0f1 (b5bd171ee9ba) revision 11910423'; Using compiler version '160040219'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'zh' Physical Memory: 16320 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 60804 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Unity2017.4\Unity\Editor\Unity.exe
+-projectPath
+C:\Users\User\Documents\TestJenkins\JenkinProejct
+-logFile
+C:\Users\User\Documents\TestJenkins\JenkinProejct/unity3d_editor.log
+-quit
+-batchmode
+-nographics
+-executeMethod
+Builder.Build
+-output
+C:\Users\User\Documents\TestJenkins\JenkinProejct/test2.exe
+Successfully changed project path to: C:\Users\User\Documents\TestJenkins\JenkinProejct
+C:/Users/User/Documents/TestJenkins/JenkinProejct
+Loading GUID <-> Path mappings...0.000075 seconds
+Loading Asset Database...0.006684 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.056292 seconds
+Refreshing native plugins compatible for Editor in 7.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Resolving 4 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.3
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.ads@2.0.3)
+[Package Manager]  * Package :  com.unity.analytics@2.0.13
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.analytics@2.0.13)
+[Package Manager]  * Package :  com.unity.purchasing@0.0.19
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.purchasing@0.0.19)
+[Package Manager]  * Package :  com.unity.standardevents@1.0.10
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.10)
+[Package Manager] Resolve completed
+Initialize engine version: 2017.4.0f1 (b5bd171ee9ba)
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Unity2017.4/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity2017.4/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono config path = 'C:/Unity2017.4/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56732
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.44 ms, found 4 plugins.
+Initializing Unity.PackageManager (PackageManager) v2017.4.0 for Unity v2017.4.0f1
+Registering precompiled unity dll's ...
+Register platform support module: C:\Unity2017.4\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:\Unity2017.4\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002092 seconds.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 2.02 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Registering platform support modules:
+Registered platform support modules in: 0.0934564s.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Begin MonoManager ReloadAssembly
+Registering precompiled user dll's ...
+Registered in 0.014524 seconds.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.4.0 for Unity v2017.4.0f1
+Registering platform support modules:
+Registered platform support modules in: 0.0571353s.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Validating Project structure ... 0.000379 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006059 seconds (Nothing changed)
+Warming cache for 130 main assets: 0.000286 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ 'C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.3 MB.
+System memory in use after: 28.3 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 664.
+Total: 1.558035 ms (FindLiveObjects: 0.581014 ms CreateObjectMapping: 0.017440 ms MarkObjects: 0.928802 ms  DeleteObjects: 0.023938 ms)
+
+DisplayProgressbar: Checking prerequisutes
+Android PostProcess task "Checking prerequisutes" took 3.1089 ms
+DisplayProgressbar: Detecting Android SDK
+AndroidSDKTools:
+
+	root          : C:\Users\User\AppData\Local\Android\Sdk
+	tools         : C:\Users\User\AppData\Local\Android\Sdk\tools
+	platform-tools: C:\Users\User\AppData\Local\Android\Sdk\platform-tools
+	build-tools   : C:\Users\User\AppData\Local\Android\Sdk\build-tools\26.0.0
+
+	adb      : C:\Users\User\AppData\Local\Android\Sdk\platform-tools\adb.exe
+	aapt     : C:\Users\User\AppData\Local\Android\Sdk\build-tools\26.0.0\aapt.exe
+	zipalign : C:\Users\User\AppData\Local\Android\Sdk\build-tools\26.0.0\zipalign.exe
+
+AndroidJavaTools:
+	java     : C:\Program Files\Java\jdk1.8.0_131\bin\java.exe
+
+Android PostProcess task "Detecting Android SDK" took 1105.2764 ms
+Android PostProcess task "Detect Android NDK" took 0.1433 ms
+Android PostProcess task "Trying to find a suitable Android device" took 0.1611 ms
+BuildPlayer: start building target 13
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+DisplayProgressbar: Building Player
+
+Packing sprites:
+[     45 MB ]- Skipping packing - Sprite Packer (Legacy) is off.
+[     45 MB ]Sprite Atlas Operation : " ## Packed All Sprite Atlases ## " took 0.000542 sec (current mem: 45 MB)
+Opening scene 'Assets/demo.unity'
+Load scene 'Assets/demo.unity' time: 0.018466 ms 
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3798 -> priority: 1 
+  Thread -> id: 5984 -> priority: 1 
+  Thread -> id: 5f10 -> priority: 1 
+  Thread -> id: 1450 -> priority: 1 
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.4 MB.
+System memory in use after: 45.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2681.
+Total: 9.520223 ms (FindLiveObjects: 0.743452 ms CreateObjectMapping: 0.025990 ms MarkObjects: 3.778474 ms  DeleteObjects: 4.971622 ms)
+
+
+
+Mono dependencies included in the build
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+Dependency assembly - UnityEngine.Timeline.dll
+Dependency assembly - UnityEngine.SpatialTracking.dll
+Dependency assembly - UnityEngine.StandardEvents.dll
+
+DisplayProgressbar: Fetching assembly references
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.1 MB.
+System memory in use after: 47.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 7.940644 ms (FindLiveObjects: 0.689420 ms CreateObjectMapping: 0.019492 ms MarkObjects: 3.484376 ms  DeleteObjects: 3.745986 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.2 MB.
+System memory in use after: 47.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 4.463449 ms (FindLiveObjects: 0.834417 ms CreateObjectMapping: 0.033171 ms MarkObjects: 3.587310 ms  DeleteObjects: 0.006839 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 47.7 MB.
+
+Unloading 144 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 92.901775 ms (FindLiveObjects: 0.769442 ms CreateObjectMapping: 0.040352 ms MarkObjects: 3.736411 ms  DeleteObjects: 88.354542 ms)
+
+DisplayProgressbar: Building Player
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+DisplayProgressbar: Creating staging area
+Android PostProcess task "Creating staging area" took 2.6212 ms
+DisplayProgressbar: Generating Build Id
+Android PostProcess task "Generating Build Id" took 0.1976 ms
+DisplayProgressbar: Preparing Unity resources
+Android PostProcess task "Preparing Unity resources" took 51.3967 ms
+DisplayProgressbar: Splitting assets
+Android PostProcess task "Splitting assets" took 5.9521 ms
+Android PostProcess task "Processing OBB assets" took 0.1283 ms
+DisplayProgressbar: Preparing Unity libraries
+Android PostProcess task "Preparing Unity libraries" took 231.4814 ms
+DisplayProgressbar: Processing resources
+Android PostProcess task "Processing resources" took 0.4158 ms
+DisplayProgressbar: Preparing APK resources
+Android PostProcess task "Preparing APK resources" took 41.0869 ms
+DisplayProgressbar: Processing plugins
+Android PostProcess task "Processing plugins" took 71.8037 ms
+DisplayProgressbar: Processing Android libraries
+Android PostProcess task "Processing Android libraries" took 2.5032 ms
+DisplayProgressbar: Creating Android manifest
+DisplayProgressbar: Fetching assembly references
+Android PostProcess task "Creating Android manifest" took 964.2185 ms
+DisplayProgressbar: Compiling resources
+Android PostProcess task "Compiling resources" took 2.5131 ms
+Android PostProcess task "IL2CPP" took 0.5355 ms
+Android PostProcess task "Build native Unity binary" took 0.1477 ms
+Android PostProcess task "Zipping symbols" took 0.421 ms
+Android PostProcess task "Performance Reporting Symbol Upload" took 0.2698 ms
+DisplayProgressbar: Preparing streaming assets
+Android PostProcess task "Preparing streaming assets" took 1.4206 ms
+Android PostProcess task "fastzip" took 0.105 ms
+Android PostProcess task "AAPT: Compiling all assets into one archive" took 0.3317 ms
+DisplayProgressbar: Building Gradle project
+Android PostProcess task "Building Gradle project" took 58026.1559 ms
+DisplayProgressbar: Moving output package
+Android PostProcess task "Moving output package" took 1.9349 ms
+DisplayProgressbar: Building Player
+
+-------------------------------------------------------------------------------
+Build Report
+Uncompressed usage by category:
+Textures      0.0 kb	 0.0% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       119.1 kb	 0.5% 
+Other Assets  2.0 kb	 0.0% 
+Levels        5.0 kb	 0.0% 
+Scripts       639.1 kb	 2.4% 
+Included DLLs 3.9 mb	 15.3% 
+File headers  9.1 kb	 0.0% 
+Complete size 25.7 mb	 100.0% 
+
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 120.5 kb	 0.5% Resources/unity_builtin_extra
+ 4.1 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 4.1 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+ 1.8 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 1.8 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
+ 1.5 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+ 1.5 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
+ 0.7 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+ 0.7 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll
+ 0.6 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+ 0.6 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll
+ 0.4 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+ 0.3 kb	 0.0% Packages/com.unity.analytics/UnityEngine.Analytics.dll
+ 0.3 kb	 0.0% Packages/com.unity.ads/UnityEngine.Advertisements.dll
+ 0.1 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+ 0.1 kb	 0.0% C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
+-------------------------------------------------------------------------------
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.1 MB.
+System memory in use after: 47.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 9.914520 ms (FindLiveObjects: 0.835443 ms CreateObjectMapping: 0.031461 ms MarkObjects: 3.760007 ms  DeleteObjects: 5.285897 ms)
+
+DisplayProgressNotification: Build Successful
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.025648 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.4 MB.
+System memory in use after: 47.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 4.392660 ms (FindLiveObjects: 0.762260 ms CreateObjectMapping: 0.023938 ms MarkObjects: 3.598254 ms  DeleteObjects: 0.006839 ms)
+
+
+*** Completed 'Build.Player.AndroidPlayer' in 66 seconds (66171 ms)
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006672 seconds (Nothing changed)
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+
+-----Compiler Commandline Arguments:
+Filename: C:\Unity2017.4\Unity\Editor\Data\MonoBleedingEdge\bin\mono.exe
+Arguments: C:\Unity2017.4\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.5\mcs.exe  @Temp/UnityTempFile-a3a446695d2b1814cba35903a619d427
+index: 73
+Responsefile: Temp/UnityTempFile-a3a446695d2b1814cba35903a619d427 Contents: 
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp-Editor.dll
+-unsafe
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEditor.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+-r:C:/Unity2017.4/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_0
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+Assets/Editor/Builder.cs
+-r:C:\Unity2017.4\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll
+-r:C:\Unity2017.4\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll
+-r:C:\Unity2017.4\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll
+-r:C:\Unity2017.4\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll
+-r:C:\Unity2017.4\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll
+-sdk:2.0
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp-Editor.dll
+Compilation succeeded - 2 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/Editor/Builder.cs(15,33): warning CS0618: `UnityEditor.EditorUserBuildSettings.SwitchActiveBuildTarget(UnityEditor.BuildTarget)' is obsolete: `Please use SwitchActiveBuildTarget (BuildTargetGroup targetGroup, BuildTarget target)'
+Assets/Editor/Builder.cs(28,16): warning CS0219: The variable `res' is assigned but its value is never used
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets/Editor/Builder.cs(15,33): warning CS0618: `UnityEditor.EditorUserBuildSettings.SwitchActiveBuildTarget(UnityEditor.BuildTarget)' is obsolete: `Please use SwitchActiveBuildTarget (BuildTargetGroup targetGroup, BuildTarget target)'
+ 
+(Filename: Assets/Editor/Builder.cs Line: 15)
+
+Assets/Editor/Builder.cs(28,16): warning CS0219: The variable `res' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/Builder.cs Line: 28)
+
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Mono: successfully reloaded assembly
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+
+----- Total AssetImport time: 0.085445s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+- Completed reload, in  1.070 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.4.0 for Unity v2017.4.0f1
+Registering platform support modules:
+Registered platform support modules in: 0.0447654s.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006318 seconds (Nothing changed)
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 53.029961 ms] 
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+
+----- Total AssetImport time: 0.154841s, AssetImport time: 0.088529s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006083 seconds (Nothing changed)
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!
+debugger-agent: Unable to listen on 3680
