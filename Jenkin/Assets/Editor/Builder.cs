@@ -25,8 +25,7 @@ public class Builder : Editor
         // 打包出 APK 名
         string apkName = string.Format("./{0}.apk", "Test");
         // 執行打包
-        string res = BuildPipeline.BuildPlayer(levels.ToArray(), apkName, buildTarget, BuildOptions.None);
-
+        var res = BuildPipeline.BuildPlayer(levels.ToArray(), apkName, buildTarget, BuildOptions.None);
         AssetDatabase.Refresh();
     }
 }
